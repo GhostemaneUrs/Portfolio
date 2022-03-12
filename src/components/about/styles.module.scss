@@ -1,0 +1,95 @@
+/* Containers */
+
+.container_about {
+  gap: 5rem;
+  display: grid;
+  grid-template-columns: 35% 50%;
+}
+
+/* Styles */
+
+.about_me {
+  width: 100%;
+  display: grid;
+  aspect-ratio: 1/1;
+  place-items: center;
+  border-radius: 3.2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--base-color-primary),
+    transparent
+  );
+}
+
+.about_me_image {
+  overflow: hidden;
+  border-radius: 3.2rem;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+
+.about_me_image:hover {
+  transform: rotate(0deg);
+}
+
+.about_icon {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: var(--base-color-primary);
+}
+
+.card span {
+  font-size: 1rem;
+  color: var(--base-color-light);
+}
+
+.about_cards {
+  gap: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: var(--base-color-light)
+}
+
+.card {
+  padding: 3.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 1.6rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  background: var(--base-bg-variant);
+}
+
+.card:hover {
+  background: transparent;
+  border-color: var(--base-color-primary);
+}
+
+.button {
+  cursor: pointer;
+  font-size: 1rem;
+  width: max-content;
+  border-radius: 0.6rem;
+  display: inline-block;
+  padding: 1.2rem 2rem;
+  transition: var(--transition);
+  color: var(--base-color-primary);
+  border: 1px solid var(--base-color-primary);
+}
+
+.button:hover {
+  color: var(--base-bg-color);
+  border-color: transparent;
+  background: var(--base-color-white);
+}
+
+.button_primary {
+  color: var(--base-bg-color);
+  background: var(--base-color-primary);
+}
