@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { RiServiceLine } from "react-icons/ri";
+import { BiMessageSquareDetail } from "react-icons/bi";
+import { AiOutlineHome, AiOutlineUser, AiOutlineBook } from "react-icons/ai";
 
 const Nav = () => {
   return (
@@ -12,13 +14,13 @@ const Nav = () => {
         <AiOutlineUser />
       </a>
       <a href="#experience" className={styles.icon_socials}>
-        <AiOutlineHome />
+        <AiOutlineBook />
       </a>
       <a href="#services" className={styles.icon_socials}>
-        <AiOutlineHome />
+        <RiServiceLine />
       </a>
       <a href="#contact" className={styles.icon_socials}>
-        <AiOutlineHome />
+        <BiMessageSquareDetail />
       </a>
     </div>
   );
