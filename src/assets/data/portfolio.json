@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "title": "Dating Manager",
+    "img_url": "https://i.ibb.co/D1sptcf/Dating-Manager.png",
+    "description": "Allows you to manage appointments",
+    "page_url": "https://dating-manager.vercel.app",
+    "repository_url": "https://github.com/GhostemaneUrs/administrador-citas",
+    "technologieOne": "React",
+    "technologieTwo": "TailwindCSS"
+  },
+  {
+    "id": 2,
+    "title": "Bookmark",
+    "img_url": "https://i.ibb.co/93q5bBr/Dating-Manager.png",
+    "description": "Landing page created to learn tailwind",
+    "page_url": "https://landingpage-ghostemaneurs.netlify.app/",
+    "repository_url": "https://github.com/GhostemaneUrs/LandingPage",
+    "technologieOne": "HTML",
+    "technologieTwo": "JS",
+    "technologieThree": "TailwindCSS"
+  },
+  {
+    "id": 3,
+    "title": "Github Profile",
+    "img_url": "https://i.ibb.co/Yp2t4jW/githubprofile.png",
+    "description": "A git profile browser built to practice redux",
+    "page_url": "https://search-github-profile.vercel.app",
+    "repository_url": "https://github.com/GhostemaneUrs/GitHubProfile",
+    "technologieOne": "React",
+    "technologieTwo": "Redux",
+    "technologieThree": "TailwindCSS"
+  },
+  {
+    "id": 4,
+    "title": "Monitor Manager",
+    "img_url": "https://i.ibb.co/Rcywsns/monitorias.png",
+    "description": "Monitoring administrator proposed for the educational sector",
+    "page_url": "",
+    "repository_url": "https://github.com/GhostemaneUrs/AdministradorMonitoriasReact",
+    "technologieOne": "React",
+    "technologieTwo": "NodeJS",
+    "technologieThree": "Bootstrap"
+  },
+  {
+    "id": 5,
+    "title": "Fanpage Riot Games",
+    "img_url": "https://i.ibb.co/hdyZy1S/riotgames.png",
+    "description": "It was a project for my full stack web development class.",
+    "page_url": "https://ghostemaneurs.github.io/RiotGames/",
+    "repository_url": "https://github.com/GhostemaneUrs/RiotGames",
+    "technologieOne": "HTML",
+    "technologieTwo": "CSS",
+    "technologieThree": "Bootstrap"
+  },
+  {
+    "id": 6,
+    "title": "Fanpage League of legends",
+    "img_url": "https://i.ibb.co/NyWYG5R/leagueoflegends.png",
+    "description": "It was a project for my full stack web development class.",
+    "page_url": "https://ghostemaneurs.github.io/LeagueOfLegends/",
+    "repository_url": "https://github.com/GhostemaneUrs/LeagueOfLegends",
+    "technologieOne": "HTML",
+    "technologieTwo": "CSS",
+    "technologieThree": "Bootstrap"
+  }
+]
