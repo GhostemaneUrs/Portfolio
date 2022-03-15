@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./styles.module.scss";
 import { BiMessageSquareDetail } from "react-icons/bi";
+import { FaFileCode } from "react-icons/fa";
 import { AiOutlineHome, AiOutlineUser, AiOutlineBook } from "react-icons/ai";
 
 const Nav = () => {
@@ -40,6 +41,17 @@ const Nav = () => {
         }
       >
         <AiOutlineBook />
+      </a>
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={
+          activeNav === "#portfolio"
+            ? `${styles.active} ${styles.icon_socials}`
+            : `${styles.icon_socials}`
+        }
+      >
+        <FaFileCode />
       </a>
       <a
         href="#contact"
