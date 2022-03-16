@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./styles.module.scss";
 import { BiMessageSquareDetail } from "react-icons/bi";
-import { FaFileCode } from "react-icons/fa";
+import { HiCode } from "react-icons/hi";
 import { AiOutlineHome, AiOutlineUser, AiOutlineBook } from "react-icons/ai";
 
 const Nav = () => {
@@ -51,7 +51,7 @@ const Nav = () => {
             : `${styles.icon_socials}`
         }
       >
-        <FaFileCode />
+        <HiCode />
       </a>
       <a
         href="#contact"
