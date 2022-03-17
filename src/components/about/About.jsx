@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import aboutImg from "../../assets/img/me-about.jpg";
+import avatar from "../../assets/img/me.jpeg";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 
@@ -13,7 +13,7 @@ const About = () => {
       <div className={styles.container_about}>
         <div className={styles.about_me}>
           <div className={styles.about_me_image}>
-            <img src={aboutImg} alt="about image" />
+            <img src={avatar} alt="about image" />
           </div>
         </div>
         <div className={styles.about_content}>
@@ -30,10 +30,10 @@ const About = () => {
             </div>
           </div>
           <p className={styles.description}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-            recusandae natus fugit sit voluptatem voluptatum et fuga, quos
-            incidunt quisquam sequi laudantium ipsa, error earum aut accusamus
-            pariatur dignissimos odit!
+            I am a Systems Engineer oriented in the search for effective results
+            and with excellent communication skills. I also have a vast
+            knowledge in current technologies, I have fundamental
+            characteristics for a company.
           </p>
           <a
             href="#contact"
