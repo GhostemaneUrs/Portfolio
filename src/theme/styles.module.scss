@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/* Variables */
+:root {
+  --base-bg-color: #1f1f38;
+  --base-bg-variant: #2c2c6c;
+  --base-color-white: #fff;
+  --transition: all 400ms ease;
+  --base-color-primary: #4db5ff;
+  --base-color-light: rgba(255, 255, 255, 0.6);
+  --base-color-primary-variant: rgba(77, 181, 255, 0.4);
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--base-color-white);
+  background: var(--base-bg-color);
+  background-image: url(../assets/img/bg-texture.png);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+a {
+  color: var(--base-color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--base-color-white);
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+section {
+  margin-bottom: 5rem;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: var(--base-color-light);
+}
+
+section > h2 {
+  margin-bottom: 2rem;
+  color: var(--base-color-primary);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container_1400 {
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1400px;
+}
