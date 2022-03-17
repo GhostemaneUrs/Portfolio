@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import avatar from "../../assets/img/me.png";
 import cv from "../../assets/document/HojaDeVida.pdf";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 
