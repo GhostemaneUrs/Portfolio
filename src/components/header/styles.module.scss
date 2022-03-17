@@ -51,9 +51,9 @@
 .socials {
   gap: 1rem;
   top: 50%;
-  left: 10%;
+  left: 5%;
   display: none;
-  position: fixed;
+  position: absolute;
   margin: 1rem 0rem;
   align-items: center;
   flex-direction: column;
@@ -78,7 +78,7 @@
   background: linear-gradient(var(--base-color-primary), transparent);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1400px) {
   .socials {
     display: flex;
   }
