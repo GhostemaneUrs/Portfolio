@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
 /* Variables */
 :root {
   --base-bg-color: #1f1f38;
@@ -11,11 +10,11 @@
   --base-color-primary-variant: rgba(77, 181, 255, 0.4);
 }
 
+html,
 body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 62.5%; /* 1 rem = 10px */
   color: var(--base-color-white);
   background: var(--base-bg-color);
   background-image: url(../assets/img/bg-texture.png);
