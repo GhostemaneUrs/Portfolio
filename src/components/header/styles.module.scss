@@ -11,7 +11,7 @@
   position: relative;
   text-align: center;
   align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   flex-direction: column;
 }
 
@@ -50,13 +50,13 @@
 
 .socials {
   gap: 1rem;
-  left: 2rem;
+  top: 50%;
+  left: 10%;
   display: none;
+  position: fixed;
   margin: 1rem 0rem;
-  position: absolute;
   align-items: center;
   flex-direction: column;
-  top: calc(50% + 9rem);
   justify-content: center;
 }
 

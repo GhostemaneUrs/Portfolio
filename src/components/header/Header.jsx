@@ -14,9 +14,6 @@ const Header = () => {
         <a href={cv} download className={styles.button}>
           Download CV
         </a>
-        <a href="" className={`${styles.button} ${styles.button_primary}`}>
-          Let's Talk
-        </a>
       </div>
       <div className={styles.socials}>
         <a
@@ -33,9 +30,6 @@ const Header = () => {
         >
           <BsGithub />
         </a>
-      </div>
-      <div className={styles.avatar}>
-        <img src={avatar} alt="img_avatar" />
       </div>
     </div>
   );
