@@ -111,11 +111,11 @@
   .container_about {
     grid-template-columns: 35% 50%;
   }
+
   .about_me_image img {
     width: 450px;
     height: 450px;
   }
-
 }
 
 @media (min-width: 576px) {
@@ -125,7 +125,7 @@
   }
 
   .about_me_image {
-    transform: rotate(10deg);
+    transform: rotate(-10deg);
   }
 
   .about_cards {
